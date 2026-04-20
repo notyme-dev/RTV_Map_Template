@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://cfjmxl2hoh0di"]
+
+[ext_resource type="Script" uid="uid://bvm456vtdboph" path="res://Scripts/Transition.gd" id="1_lbm6b"]
+[ext_resource type="PackedScene" uid="uid://dlf1huyqcuruf" path="res://Resources/Spawn.tscn" id="2_k3m8s"]
+[ext_resource type="PackedScene" uid="uid://b7q5krmw2r357" path="res://Terrains/Utility/Flag_Transition.tscn" id="3_lyf1n"]
+[ext_resource type="PackedScene" uid="uid://biuh1qjy3f5k0" path="res://Terrains/Utility/Pole_Ribbon_Field.tscn" id="4_tfqyg"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_lyf1n"]
+size = Vector3(10, 10, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tfqyg"]
+size = Vector3(2.5856285, 2.802765, 0.96795654)
+
+[node name="Transition_MyMap" type="Node3D" unique_id=1094630322 node_paths=PackedStringArray("spawn")]
+script = ExtResource("1_lbm6b")
+spawn = NodePath("Spawn")
+nextMap = "My Map"
+nextZone = "Area 05"
+currentMap = "Village"
+shelterEnter = true
+
+[node name="Flag_Transition" parent="." unique_id=412636787 instance=ExtResource("3_lyf1n")]
+transform = Transform3D(-0.65502906, -0.04123204, 0.75447786, -0.031819984, 0.9991295, 0.02697644, -0.75493336, -0.006337106, -0.6557708, -0.28911123, 1.365336, 0.7460107)
+
+[node name="Pole_Ribbon_Field" parent="." unique_id=830000518 instance=ExtResource("4_tfqyg")]
+transform = Transform3D(-1.3206472, -0.037108835, 0.7085659, -0.058996137, 0.89921653, 0.020856533, -0.708809, -0.005703395, -1.32193, -0.23110239, -0.0075844824, 0.75163966)
+
+[node name="Mesh" type="MeshInstance3D" parent="." unique_id=1197174274]
+layers = 0
+mesh = SubResource("BoxMesh_lyf1n")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Mesh" unique_id=580100269 groups=["Transition"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07495283, 0.6607751, -0.24167055)
+collision_layer = 16384
+collision_mask = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Mesh/StaticBody3D" unique_id=1106329415]
+transform = Transform3D(1, 0, -2.9802322e-08, 0, 1, 0, 2.9802322e-08, 0, 1, -0.065394096, 0.45808417, -0.17859283)
+shape = SubResource("BoxShape3D_tfqyg")
+
+[node name="Spawn" parent="." unique_id=1421871223 instance=ExtResource("2_k3m8s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06423746, 0, 0.495377)

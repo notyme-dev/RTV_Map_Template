@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ba6ygeasnsrg7"]
+
+[ext_resource type="PackedScene" uid="uid://cfjmxl2hoh0di" path="res://mods/MapTemplate/Transition_MyMap.tscn" id="1_ch32n"]
+
+[node name="Village_Inject" type="Node3D" unique_id=1525596046]
+
+[node name="Transition_MyMap" parent="." unique_id=1094630322 instance=ExtResource("1_ch32n")]
+transform = Transform3D(-0.17271999, 0, 0.984971, 0, 1, 0, -0.984971, 0, -0.17271999, -107.123535, -0.03058356, 124.2559)

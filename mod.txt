@@ -1,0 +1,13 @@
+[mod]
+name="My Map"
+id="my-map"
+version="1.0.0"
+priority=1
+
+[autoload]
+nt_Loader="res://mods/MapTemplate/nt_SceneLoader/nt_Loader.gd"
+nt_SceneLoader="res://mods/MapTemplate/nt_SceneLoader/Main.gd"
+MapTemplate="res://mods/MapTemplate/Main.gd"
+
+[updates]
+modworkshop=XXXXXX
