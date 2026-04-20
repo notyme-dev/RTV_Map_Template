@@ -2,7 +2,7 @@ extends Node
 var nt_Loaderx : Node
 
 const map_name : String = "My Map"
-const shelter : bool = true
+const shelter : bool = false
 const permadeath : bool = false
 
 ####### ---DEBUG FUNCTIONS (ONLY FOR TESTING)--- #######
