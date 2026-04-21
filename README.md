@@ -1,5 +1,5 @@
 # Road to Vosok Map Template
-A Template for creating custom maps for Road to Vostok. Includes a scene loader and injector (nt_SceneLoader) and tools for generating surface meshes for the instanced mesh generation system and for things like collisions and footstep sounds. It does not conflict with any other mods I've tried and custom maps created using this template should not collide with one another.
+A Template for creating custom maps for Road to Vostok. Includes a scene loader and injector (nt_SceneLoader) and tools for generating surface meshes for the instanced mesh generation system and for things like collisions and footstep sounds. It does not conflict with any other mods I've tried and custom maps created using this template should not collide with one another as your map has a unique name, so don't make it something generic.
 
 # Guide
 **Video Tutorial**
