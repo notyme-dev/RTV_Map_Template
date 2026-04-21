@@ -2,6 +2,9 @@
 A Template for creating custom maps for Road to Vostok. Includes a custom scene loader and injector (nt_SceneLoader) and tools for generating surface meshes for the instanced mesh generation system and for things like collisions and footstep sounds. 
 
 # Guide
+**Video Tutorial**
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pe6P0tjLy-0/0.jpg)](https://www.youtube.com/watch?v=pe6P0tjLy-0)
+
 **Pre-requisites:**
 * A copy of Road to Vostok
 * GDRE: https://github.com/GDRETools/gdsdecomp
@@ -18,3 +21,7 @@ A Template for creating custom maps for Road to Vostok. Includes a custom scene 
 6. If you can enter and exit the map correctly you should be ready to start creating your map.
 
 **Read through "MapTemplate/Main.gd" to get an idea of how registering your custom map with the loader works.**
+
+**Exporting:**
+1. Configure your mod.txt, **set the MapTemplate autoload name to something unique.**
+2. Export with ModZipExporter (make sure you are naming your zip file as .vmz, not .zip)
