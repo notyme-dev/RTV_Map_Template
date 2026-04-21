@@ -7,8 +7,8 @@ A Template for creating custom maps for Road to Vostok. Includes a scene loader 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rsxqYZ7qZvw/0.jpg)](https://www.youtube.com/watch?v=rsxqYZ7qZvw)
 
 **Pre-requisites:**
-* Familiarity with Godot and Blender.
-* A copy of Road to Vostok
+* Familiarity with Godot and basic 3D Modelling skills.
+* A copy of Road to Vostok.
 * GDRE: https://github.com/GDRETools/gdsdecomp
 * Godot (download whatever version GDRE tells you to, right now it's 4.6.1 but that might change)
 * 3D Modelling software for terrain creation (for example Blender)
