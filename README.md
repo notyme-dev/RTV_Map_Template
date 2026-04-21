@@ -36,6 +36,6 @@ Watch the "Shelters" segment of the Tutorial or:
 Regarding the navmesh I don't have a good solution currently. You could follow the guide in the video or look at one of the existing maps to get an idea of what the end result *should* look like but I highly recommend finding a better method. I will post an update when and if I do decide to tackle that.
 
 **Exporting:**
-1. Rename your MapTemplate folder to whatever you want your map name to be and update the Main.gd file paths accordingly.
+1. Rename your MapTemplate folder to whatever you want your mod name to be and update the Main.gd file paths accordingly.
 2. Configure your mod.txt, **set the MapTemplate autoload name to something unique.**
 3. Export with ModZipExporter (make sure you are naming your zip file as .vmz, not .zip)
