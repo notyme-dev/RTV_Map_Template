@@ -35,7 +35,7 @@ Watch the "Shelters" segment of the Tutorial or:
 
 **Navmesh & AI:**
 
-Regarding the navmesh I don't have a good solution currently. You could follow the guide in the video or look at one of the existing maps to get an idea of what the end result *should* look like but I highly recommend finding a better method. I will post an update when and if I do decide to tackle that.
+Watch this: https://www.youtube.com/watch?v=YKbF6N3bCpk
 
 **Exporting:**
 1. Rename your MapTemplate folder to whatever you want your mod name to be and update the Main.gd and mod.txt file paths accordingly.
