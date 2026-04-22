@@ -33,9 +33,6 @@ Watch the "Shelters" segment of the Tutorial or:
 2. Check "Shelter Enter" on your entrance Transition point and "Shelter Exit" on your exit Transition point.
 3. In the "Map" node in your map, set Map Type to "Shelter" and under Details set Shelter Location to whatever map is *outside* of your shelter.
 
-**Navmesh & AI:**
-
-Watch this: https://www.youtube.com/watch?v=YKbF6N3bCpk
 
 **Exporting:**
 1. Rename your MapTemplate folder to whatever you want your mod name to be and update the Main.gd and mod.txt file paths accordingly.
